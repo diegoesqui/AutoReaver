@@ -12,5 +12,4 @@ if [ $OS == "Darwin" ]  # MAC OS X
 elif [ $OS == "Linux" ]  # LINUX
 	then
 	sudo airmon-ng start wlan0 &
-	airodump-ng mon0 &
 fi
