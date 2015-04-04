@@ -4,12 +4,12 @@
 #
 
 OS=`uname`
-echo Initializing wireless card as monitor
+echo "Initializing wireless card as monitor"
 
-if [$OS -eq "Darwin"]  # MAC OS X
+if [ $OS == "Darwin" ]  # MAC OS X
 	then
 	sudo airport en1 sniff 1 &
-elif [$OS -eq "Linux"]  # LINUX
+elif [ $OS == "Linux" ]  # LINUX
 	then
 	sudo airmon-ng start wlan0 &
 	airodump-ng mon0 &
