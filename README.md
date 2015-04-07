@@ -1,4 +1,4 @@
-# AutoReaver (for Mac OS X)
+# AutoReaver
 Serie de scripts para automatizar las tareas de recuperacion de claves con Reaver.
 
 Reaver es una aplicación que se encarga de explotar las redes wifi utilizando ataques de fuerza bruta contra el WPS (Wi-fi Protected Setup). El WPS es un código numérico utilizado en muchos routers para autenticar a dispositivos moviles.
@@ -19,3 +19,8 @@ Reaver por defecto solo funciona en Linux pero se puede pachear para que funcion
 	$ ./configure $ make $ sudo make install  
 
 Red en1 en modo monitor
+
+# Instalacion de Reaver en Linux (Debian)
+
+	$ sudo apt-get update
+	$ sudo apt-get aircrack-ng reaver macchanger
