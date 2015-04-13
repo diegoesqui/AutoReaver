@@ -15,9 +15,11 @@ if [ $OS == "Darwin" ]  # MAC OS X
 	ps -ef|grep "airport en1 sniff 1"|grep -v grep|awk '{system("sudo kill -9 " $2)}'
 elif [ $OS == "Linux" ]  #Linux
 	then
+	# Recupero la MAC address
 	sudo ifconfig $INTERF down &
-	sudo airmon-ng stop $INTERF &
 	sudo macchanger -p $INTERF &
-	sudo airmon-ng start $INTERF &
 	sudo ifconfig $INTERF up &
+
+	# Deshabilito el modo monitor
+	sudo airmon-ng stop mon0 &
 fi

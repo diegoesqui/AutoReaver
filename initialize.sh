@@ -21,11 +21,12 @@ elif [ $OS == "Linux" ]  # LINUX
 	INTERF="wlan0"
 	echo Interface: $INTERF
 	echo interface,$INTERF >> system.csv
-	echo "Initializing wireless card as monitor"
-	sudo airmon-ng stop $INTERF &
 
 	echo "Hiding your MAC address"
 	sudo ifconfig $INTERF down &
 	sudo macchanger -m 00:11:22:33:44:55 $INTERF &
 	sudo ifconfig $INTERF up &
+
+	echo "Initializing wireless card as monitor"
+	sudo airmon-ng start $INTERF &
 fi
