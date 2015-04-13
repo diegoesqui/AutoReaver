@@ -22,4 +22,7 @@ elif [ $OS == "Linux" ]  #Linux
 
 	# Deshabilito el modo monitor
 	sudo airmon-ng stop mon0 &
+
+	# Reinicio el servicio wifi
+	sudo service network-manager restart
 fi
