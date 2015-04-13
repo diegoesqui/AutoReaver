@@ -7,6 +7,9 @@
 OS=`uname`
 echo "OS,$OS" > system.csv
 
+#Borro ficheros antiguos
+rm -f victims*
+
 if [ $OS == "Darwin" ]  # MAC OS X
 	then
 	echo OS detected: MAC OS
