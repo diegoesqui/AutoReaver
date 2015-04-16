@@ -1,1 +1,24 @@
-[X] ERROR: Failed to compile packet filter
+BSSID                  Channel       RSSI       WPS Version       WPS Locked        ESSID
+88:03:55:38:00:CB       1            -24        1.0               No                WLAN_LP
+0E:D9:54:35:6F:21       6            -50        1.0               No                JAZZTEL_A387
+06:D9:54:DB:D6:F2       6            -63        1.0               No                JAZZTEL_1327
+4C:09:D4:65:C3:1E       3            -65        1.0               No                Orange-C31C
+3E:D9:54:24:3E:D1       6            -67        1.0               No                JAZZTEL_DCB9
+D0:AE:EC:EF:2D:18       8            -69        1.0               No                WLAN_2D18
+88:03:55:CB:40:49       3            -70        1.0               No                Orange-4047
+8C:0C:A3:2E:27:5D       3            -71        1.0               No                WLAN_275D
+88:03:55:2A:09:BA       3            -72        1.0               No                Orange-09B8
+9C:80:DF:C8:9E:4D       5            -72        1.0               No                Orange-9E4B
+88:03:55:DF:10:D6      11            -73        1.0               No                Orange-10D4
+5C:33:8E:BC:7A:00       7            -73        1.0               No                WLAN_7A00
+C4:6E:1F:3A:54:45       3            -74        1.0               No                MOVISTAR_1F32_EXT2
+8C:0C:A3:2B:00:C6       2            -74        1.0               No                WLAN_00C6
+64:68:0C:9F:9A:CD       7            -76        1.0               No                WLAN_9ACA
+F8:8E:85:D7:B3:8C       1            -77        1.0               No                MOVISTAR_B38B
+F8:63:94:59:AA:03      11            -78        1.0               No                MOVISTAR_A9FA
+D8:61:94:2A:EB:21      11            -78        1.0               No                VodafoneEB2G
+D8:61:94:63:B2:EA       2            -86        1.0               No                MOVISTAR_B2EA
+B2:46:FC:8B:EE:E8       1            -87        1.0               No                MOVISTAR_EEE8
+00:1A:2B:AF:DA:F2       1            -88        1.0               No                WLAN_38F4
+F8:7F:39:A4:B2:E1       2            -90        1.0               No                MOVISTAR_B2D8
+8C:0C:A3:2C:B2:E6      10            -90        1.0               No                WLAN_B2E6

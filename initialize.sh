@@ -31,5 +31,6 @@ elif [ $OS == "Linux" ]  # LINUX
 	sudo ifconfig $INTERF up &
 
 	echo "Initializing wireless card as monitor"
-	sudo airmon-ng start $INTERF &
+	sudo airmon-ng start mon0 &
+	sudo service network-manager stop mon0 &
 fi
